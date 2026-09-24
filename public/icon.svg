@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1e1b4b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inner glowing board / notebook -->
+  <g filter="url(#shadow)">
+    <!-- Classroom Board / Desk Tablet -->
+    <rect x="96" y="96" width="320" height="320" rx="40" fill="url(#cardGrad)" stroke="#e0e7ff" stroke-width="4" />
+    
+    <!-- Header banner in tablet -->
+    <path d="M 96 136 C 96 114 114 96 136 96 L 376 96 C 398 96 416 114 416 136 L 416 170 L 96 170 Z" fill="#4338ca" />
+    
+    <!-- Top badge dots -->
+    <circle cx="136" cy="133" r="8" fill="#a5b4fc" />
+    <circle cx="160" cy="133" r="8" fill="#c7d2fe" />
+    <circle cx="184" cy="133" r="8" fill="#e0e7ff" />
+
+    <!-- Attendance Checklist Rows -->
+    <rect x="136" y="206" width="160" height="18" rx="9" fill="#e2e8f0" />
+    <circle cx="350" cy="215" r="14" fill="#10b981" />
+    <path d="M 344 215 L 348 219 L 356 211" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <rect x="136" y="254" width="130" height="18" rx="9" fill="#e2e8f0" />
+    <circle cx="350" cy="263" r="14" fill="#10b981" />
+    <path d="M 344 263 L 348 267 L 356 259" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <rect x="136" y="302" width="145" height="18" rx="9" fill="#e2e8f0" />
+    <circle cx="350" cy="311" r="14" fill="#6366f1" />
+    <path d="M 344 311 L 348 315 L 356 307" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <rect x="136" y="350" width="110" height="18" rx="9" fill="#e2e8f0" />
+    <circle cx="350" cy="359" r="14" fill="#f59e0b" />
+    <path d="M 346 359 L 354 359" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

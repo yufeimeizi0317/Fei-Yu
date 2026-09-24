@@ -1,0 +1,8 @@
+{
+  "name": "Remix ClassDesk",
+  "description": "具備智慧點名、座位表模式、作業繳交盤點、多元報表匯出（Excel/PDF/列印）、家長自動寄信通知與催繳機制的專業教學管理系統",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
